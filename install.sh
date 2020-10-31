@@ -21,7 +21,7 @@ fi
 mkdir -p /usr/local/vesta/plugins
 
 rm -rf "/tmp/vestacp-plugin-manager-master"
-curl -L -J "https://github.com/jhmaverick/vestacp-plugin-manager/archive/master.zip" -o "/tmp/vestacp-plugin-manager.zip"
+curl -L -J "https://github.com/Bladeip/vestacp-plugin-manager/archive/master.zip" -o "/tmp/vestacp-plugin-manager.zip"
 unzip -q "/tmp/vestacp-plugin-manager.zip" -d "/tmp"
 rm -rf "/tmp/vestacp-plugin-manager.zip"
 
